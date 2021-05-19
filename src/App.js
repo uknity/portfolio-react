@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
@@ -10,9 +10,10 @@ function App() {
   return (
     <Router>
       <div>
-        <Header />
+        <Header>
+          </Header> 
         <Wrapper>
-          <Route exact path="/" component={Homepage} />
+          <Homepage />
         </Wrapper>
       </div>
     </Router>

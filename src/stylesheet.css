@@ -6,24 +6,13 @@ body {
 
 main {
     background-color: #ffffff;
-    background-image: url("https://www.transparenttextures.com/patterns/rough-cloth-light.png");
-    padding-top: 1%;
+    /* background-image: url("https://www.transparenttextures.com/patterns/rough-cloth-light.png");
+    padding-top: 1%; */
 }
 
-a {
-    color: black;
-}
 
-a::hover {
-    color: darkslategray;
-}
 
-.navStyle {
-    min-height: 300px;
-    background: url("../images/heading.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 .nameRow {
     padding-bottom: 0px;
@@ -35,31 +24,7 @@ a::hover {
     align-items: start;
 }
 
-.navbar-brand {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    font-size: 2.25rem;
-    
-}
 
-.navbar {
-    padding: 0px;
-    padding-left: .5rem;
-}
-
-#subtitleLinkRow {
-    max-height: 25px;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-
-#subTitle {
-    padding-top: 0px;
-    margin-top: 0px;
-    padding-left: 0px;
-    font-style: italic;
-}
 
 #bodyContent {
     margin-top: 0%;
