@@ -14,11 +14,7 @@ main {
 
 
 
-.nameRow {
-    padding-bottom: 0px;
-    margin-left: 30px;
-    margin-right: 0px;
-}
+
 #navbarSupportedContent {
     flex-grow: 0;
     align-items: start;

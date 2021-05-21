@@ -17,6 +17,7 @@ header {
   padding: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  padding-left: 0px;
 }
 .navbarSupportedContent {
   flex-grow: 0;
@@ -33,13 +34,14 @@ header {
 
 .navbar {
   padding: 0px;
-  padding-left: .5rem;
+  padding-left: 0px;
 }
 
 .subtitleLinkRow {
   max-height: 25px;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 5px;
 }
 
 .subTitle {
