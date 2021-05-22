@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import backImg from "./heading.jpg";
+import backImg from "./headingImg.jpg";
 import { Link } from "react-router-dom";
 import resumePdf from './resumePdf.pdf';
 
@@ -8,26 +8,25 @@ import resumePdf from './resumePdf.pdf';
 //function to create header
 function Header() {
 	return (
-		<div
-			className="container-fluid p-0"
-			style={{
+		<div>
+		<div className="container-fluid p-0" style={{
+				
 				backgroundImage: `url(${backImg})`,
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
-				height: "300px",
+				height: "400px",
 			}}
-		>
-			<div className="row h-100 d-inline-block p-0"></div>
-			<div className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-end nameRow">
-				<div className="navbar-brand display-1 p-0">Elizabeth Emerson</div>
+		></div>
+			<div className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-end" id="nameRow">
+				<div className="navbar-brand display-1 p-0" id="ee">Elizabeth Emerson</div>
 			</div>
 
-			<nav className="navbar navbar-expand-lg navbar-light bg-light d-flex subtitleLinkRow">
-				<div className="navbar navbar-expand-lg bg-light subTitle">
+			<nav className="navbar navbar-expand-lg navbar-light bg-light d-flex" id="subtitleLinkRow">
+				<div className="navbar navbar-expand-lg bg-light" id="subTitle">
 					Grow, build, learn, repeat
 				</div>
-				<div className="collapse navbar-collapse flex-shrink-1 ml-auto navbarSupportedContent">
-					<ul className="navbar-nav  mb-2 mb-lg-0 linkRow">
+				<div className="collapse navbar-collapse flex-shrink-1  ml-auto" id="navbarSupportedContent">
+					<ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow">
 						<li className="nav-item">
 							<Link
 								to="/about"
@@ -89,7 +88,7 @@ function Header() {
 					</ul>
 				</div>
 			</nav>
-		</div>
+			</div>
 	);
 }
 
