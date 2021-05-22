@@ -4,20 +4,20 @@ import profileImg from "./profileImg.jpg";
 
 function About() {
 	return (
-		<div className="container-fluid bodyContainer m-0">
+		<div className="container-fluid bodyContainer m-0 pt-6 pb-5">
 			<div className="row justify-content-center">
 				<div className="col-4 d-flex justify-content-center">
 					<img
 						src={profileImg}
 						alt="profile pic"
-						style={{ width: "60%", borderRadius: "60%" }}
+						style={{ width: "50%", borderRadius: "60%"}}
 					></img>
 				</div>
 			</div>
 			<div className="row justify-content-center ">
-				<h3 className="col-5 d-flex justify-content-center p-4">MY STORY</h3>
+				<h3 className="col-5 d-flex justify-content-center p-4 storyHeader">MY       STORY</h3>
 			</div>
-			<div className="row justify-content-center">
+			<div className="row justify-content-center bioRow">
 				<div className="col-6 text-center p-4">
 					<div className="row">
 						<p>

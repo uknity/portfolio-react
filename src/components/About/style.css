@@ -3,3 +3,14 @@ background-color: #f2f78d;
 /* height: 300px; */
 padding: 100px;
 }
+
+.storyHeader {
+font-family: 'Homemade Apple', cursive;
+  color: darkslategray;
+}
+
+.bioRow {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}

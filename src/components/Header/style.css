@@ -1,8 +1,4 @@
 
-a {
-  color: black;
-}
-
 a::hover {
   color: darkslategray;
 }
@@ -12,11 +8,14 @@ a::hover {
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 0px;
-  
 }
 
 #ee {
   font-size: 2.25rem;
+  letter-spacing: 2px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: darkslategray;
+
 }
 #navbarSupportedContent {
   flex-grow: 0;
@@ -27,9 +26,12 @@ a::hover {
 .navbar-brand {
   margin-bottom: 0px;
   padding-bottom: 0px;
-  padding-top: 0px;
-  font-size: 2.25rem;
-  
+  padding-top: 0px;  
+}
+
+.nav-item {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: darkslategray;
 }
 
 .navbar {
@@ -53,6 +55,7 @@ a::hover {
   padding-top: 0px;
   margin-top: 0px;
   padding-left: 0px;
-  font-style: italic;
   padding-bottom: 0px;
+  font-family: 'Homemade Apple', cursive;
+  color: darkslategray;
 }
