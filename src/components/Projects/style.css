@@ -1,6 +1,3 @@
-.img-fluid {
-    padding: 30px;
-}
 
 .projectHeader {
     font-family: 'Homemade Apple', cursive;
@@ -9,3 +6,8 @@
       padding: 30px;
      
     }
+
+.imgBorder {
+  border: 30px solid white;
+  /* border: thin solid black; */
+}
