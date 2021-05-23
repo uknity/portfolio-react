@@ -1,5 +1,11 @@
-/* .img-fluid {
-    margin-left: 60px;
-    margin-right:60px;
-} */
+.img-fluid {
+    padding: 30px;
+}
 
+.projectHeader {
+    font-family: 'Homemade Apple', cursive;
+      color: darkslategray;
+      font-size: 2rem;
+      padding: 30px;
+     
+    }
