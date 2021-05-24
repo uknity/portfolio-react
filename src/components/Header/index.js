@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import backImg from "./headingImg.jpg";
 import { Link } from "react-router-dom";
-import resumePdf from './resumePdf.pdf';
+import resumePDF from "./resumePDF.pdf";
 
 
 //function to create header
@@ -88,7 +88,7 @@ function Header() {
 						<li className="nav-item">
 							<a
                             className="nav-link"
-                                href={resumePdf}
+                                href={resumePDF}
 								target="_blank" rel="noopener noreferrer" 
 								download
 							>
