@@ -27,6 +27,18 @@ function Header() {
 				</div>
 				<div className="collapse navbar-collapse flex-shrink-1  ml-auto" id="navbarSupportedContent">
 					<ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow">
+					<li className="nav-item">
+							<Link
+								to="/"
+								className={
+									window.location.pathname === "/"
+										? "nav-link active"
+										: "nav-link"
+								}
+							>
+								Home{" "}
+							</Link>
+						</li>
 						<li className="nav-item">
 							<Link
 								to="/about"

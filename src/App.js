@@ -7,19 +7,16 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
-
-
 function App() {
 	return (
 		<Router>
 			<div>
 				<Header />
 				<Wrapper>
-					<Route exact path="/" component={Homepage} />
+					<Route exact path={["/", "/portfolio-react"]} component={Homepage} />
 					<Route path="/about" component={About} />
 					<Route path="/projects" component={Projects} />
 					<Route path="/contact" component={Footer} />
-					
 				</Wrapper>
 			</div>
 		</Router>
