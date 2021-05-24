@@ -9,7 +9,9 @@ import resumePDF from "./resumePDF.pdf";
 function Header() {
 	return (
 		<div>
-		<div className="container-fluid p-0" style={{
+		<div className="container-fluid p-0" 
+		id="bgImg"
+		style={{
 				backgroundImage: `url(${backImg})`,
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
