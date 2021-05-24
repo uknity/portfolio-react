@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.d5600b3b.chunk.css",
+    "main.css": "/portfolio-react/static/css/main.974bb214.chunk.css",
     "main.js": "/portfolio-react/static/js/main.762e0800.chunk.js",
     "main.js.map": "/portfolio-react/static/js/main.762e0800.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.a9362b86.js",
@@ -10,7 +10,7 @@
     "static/js/2.0a75d162.chunk.js.map": "/portfolio-react/static/js/2.0a75d162.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/portfolio-react/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.d5600b3b.chunk.css.map": "/portfolio-react/static/css/main.d5600b3b.chunk.css.map",
+    "static/css/main.974bb214.chunk.css.map": "/portfolio-react/static/css/main.974bb214.chunk.css.map",
     "static/js/2.0a75d162.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.0a75d162.chunk.js.LICENSE.txt",
     "static/media/HomeRoute.da5ca870.png": "/portfolio-react/static/media/HomeRoute.da5ca870.png",
     "static/media/MVC_tech_blog.5bdc1555.png": "/portfolio-react/static/media/MVC_tech_blog.5bdc1555.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.a9362b86.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.0a75d162.chunk.js",
-    "static/css/main.d5600b3b.chunk.css",
+    "static/css/main.974bb214.chunk.css",
     "static/js/main.762e0800.chunk.js"
   ]
 }
