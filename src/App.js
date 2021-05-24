@@ -5,7 +5,8 @@ import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Contact from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -16,9 +17,10 @@ function App() {
 					<Route exact path="/" component={Homepage} />
 					<Route path="/about" component={About} />
 					<Route path="/projects" component={Projects} />
-					<Route path="/contact" component={Contact} />
+					<Route path="/contact" component={Footer} />
 					
 				</Wrapper>
+				<Footer />
 			</div>
 		</Router>
 	);

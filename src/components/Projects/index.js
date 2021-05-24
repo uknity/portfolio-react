@@ -7,6 +7,7 @@ import techBlog2 from "./MVC_tech_blog.png";
 import poketrade2 from "./poketrade2.png";
 import weatherDashboard2 from "./weather-dashboard.png";
 import codeBanner from "./full-headphones.jpg";
+import transitionPic from "./transition-pic.jpg";
 
 function Projects() {
 	return (
@@ -25,17 +26,22 @@ function Projects() {
 			}}>
 			<div className="row p-3 justify-content-center">
 				<div className="col-5  px-5">
+				
 					<a
 						href="https://uknity.github.io/employee-directory-2/"
 						target="blank"
 						rel="noopener noreferrer"
 					>
+						
 						<img
 							src={employeeDirectory2}
 							className="w-100  imgBorder"
 							alt="Project image"
 						/>
+						
+						
 					</a>
+					<div class="projectDesc bottom-center text-center">Employee Directory</div>
 				</div>
 				<div className="col-5 px-5">
 					<a
@@ -49,6 +55,7 @@ function Projects() {
 							alt="Project image"
 						/>
 					</a>
+					<div class="projectDesc bottom-center text-center">PokeTrade</div>
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
@@ -64,6 +71,7 @@ function Projects() {
 							alt="Project image"
 						/>
 					</a>
+					<div class="projectDesc bottom-center text-center">Budget Tracker PWA</div>
 				</div>
 
 				<div className="col-5  px-5">
@@ -79,6 +87,7 @@ function Projects() {
 							alt="Project image"
 						/>
 					</a>
+					<div class="projectDesc bottom-center text-center">Weather Dashboard</div>
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
@@ -94,6 +103,7 @@ function Projects() {
 							alt="Project image"
 						/>
 					</a>
+					<div class="projectDesc bottom-center text-center">MVC Tech Blog</div>
 				</div>
 				<div className="col-5  px-5">
 					<a
@@ -107,19 +117,20 @@ function Projects() {
 							alt="Project image"
 						/>
 					</a>
+					<div class="projectDesc bottom-center text-center">HomeRoute</div>
 				</div>
 
 				</div>
 			</div>
 		
-		{/* <div className="container-fluid p-0" style={{
+		<div className="container-fluid p-0" style={{
 				
-			backgroundImage: `url(${codeBanner})`,
+			backgroundImage: `url(${transitionPic})`,
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
-			height: "500px",
+			height: "400px",
 		}}
-	></div> */}
+	></div>
 	</div>
 	);
 }

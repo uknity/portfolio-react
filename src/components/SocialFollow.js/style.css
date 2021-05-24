@@ -1,0 +1,28 @@
+.socialContainer {
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    padding-left: 20px;
+  }
+
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+
+  a.gitHub {
+    color: black;
+  }
+
+  a.linkedIn {
+    color: black;
+  }
+
+  a.email {
+    color: black;
+  }

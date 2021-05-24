@@ -11,6 +11,7 @@ const Homepage = () => {
       <div>
        <About />
        <Projects />
+       
            </div>
     );
   }
