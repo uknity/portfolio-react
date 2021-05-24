@@ -17,3 +17,50 @@
   font-family: 'Homemade Apple', cursive;
       color: darkslategray;
 }
+
+#projectContainer {
+  padding: 200px;
+}
+
+#projectCol {
+  padding: 3%;
+}
+
+#projectPic {
+  /* min-width: 200px !important;  */
+  max-width: 700px !important
+} 
+
+#banPic {
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+#banPic {
+  background-attachment: scroll;
+}
+
+.imgBorder {
+  border: none;
+}
+
+#projectContainer {
+  padding: 20px;
+}
+
+#projectCol {
+  padding: 2%;
+}
+
+.projectDesc {
+  background-color: white;
+  font-family: 'Homemade Apple', cursive;
+  color: darkslategray;
+  font-size: x-small;
+}
+
+}

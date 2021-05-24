@@ -13,10 +13,10 @@ function Header() {
 		id="bgImg"
 		style={{
 				backgroundImage: `url(${backImg})`,
-				backgroundSize: "cover",
-				backgroundRepeat: "no-repeat",
-				height: "500px",
-				backgroundAttachment: "fixed"
+				// backgroundSize: "cover",
+				// backgroundRepeat: "no-repeat",
+				// height: "500px",
+				// backgroundAttachment: "fixed"
 			}}
 		></div>
 			<div className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-end" id="nameRow">
@@ -102,6 +102,7 @@ function Header() {
 					</ul>
 				</div>
 			</nav>
+			
 			</div>
 	);
 }

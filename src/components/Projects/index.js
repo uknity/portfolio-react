@@ -17,14 +17,14 @@ function Projects() {
 				Projects
 			</div>
 
-			<div className="container-fluid p-5" style={{
+			<div className="container-fluid" id="projectContainer" style={{
 				
 				backgroundImage: `url(${codeBanner})`,
 				backgroundSize: "cover",
 				backgroundRepeat: "repeat",
 			}}>
 			<div className="row p-3 justify-content-center">
-				<div className="col-4  px-5 py-2">
+				<div className="col-sm-6 col-4 py-2" id="projectCol">
 				
 					<a
 						href="https://uknity.github.io/employee-directory-2/"
@@ -34,7 +34,7 @@ function Projects() {
 						
 						<img
 							src={employeeDirectory2}
-							className="w-100  imgBorder"
+							className="img-fluid w-100  imgBorder" id="projectPic"
 							alt="Project image"
 						/>
 						
@@ -42,7 +42,7 @@ function Projects() {
 					</a>
 					<div class="projectDesc bottom-center text-center">Employee Directory</div>
 				</div>
-				<div className="col-4 px-5 py-2">
+				<div className="col-sm-6 col-4 py-2" id="projectCol">
 					<a
 						href="https://vharris113.github.io/poketrade/"
 						target="blank"
@@ -51,6 +51,7 @@ function Projects() {
 						<img
 							src={poketrade2}
 							className="w-100 imgBorder"
+							id="projectPic"
 							alt="Project image"
 						/>
 					</a>
@@ -58,7 +59,7 @@ function Projects() {
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
-				<div className="col-4  px-5 py-2">
+				<div className="col-sm-6 col-4 py-2" id="projectCol">
 					<a
 						href="https://radiant-badlands-18938.herokuapp.com/"
 						target="blank"
@@ -67,13 +68,14 @@ function Projects() {
 						<img
 							src={budgetTracker2}
 							className="w-100 imgBorder"
+							id="projectPic"
 							alt="Project image"
 						/>
 					</a>
 					<div class="projectDesc bottom-center text-center">Budget Tracker PWA</div>
 				</div>
 
-				<div className="col-4  px-5 py-2">
+				<div className="col-sm-6 col-4 py-2" id="projectCol">
 					
 					<a
 						href="https://uknity.github.io/Weather_Dashboard/"
@@ -83,6 +85,7 @@ function Projects() {
 						<img
 							src={weatherDashboard2}
 							className="w-100 imgBorder"
+							id="projectPic"
 							alt="Project image"
 						/>
 					</a>
@@ -90,7 +93,7 @@ function Projects() {
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
-				<div className="col-4  px-5 py-2">
+				<div className="col-sm-6 col-4 py-2" id="projectCol">
 					<a
 						href="https://immense-cove-53002.herokuapp.com/"
 						target="blank"
@@ -99,12 +102,13 @@ function Projects() {
 						<img
 							src={techBlog2}
 							className="w-100 imgBorder"
+							id="projectPic"
 							alt="Project image"
 						/>
 					</a>
 					<div class="projectDesc bottom-center text-center">MVC Tech Blog</div>
 				</div>
-				<div className="col-4  px-5 py-2">
+				<div className="col-sm-6 col-4 py-2" id="projectCol">
 					<a
 						href="https://hidden-scrubland-47296.herokuapp.com/"
 						target="blank"
@@ -113,6 +117,7 @@ function Projects() {
 						<img
 							src={homeRoute2}
 							className="w-100 imgBorder"
+							id="projectPic"
 							alt="Project image"
 						/>
 					</a>
@@ -122,13 +127,13 @@ function Projects() {
 				</div>
 			</div>
 		
-		<div className="container-fluid p-0" style={{
+		<div className="container-fluid p-0" id="banPic" style={{
 				
 			backgroundImage: `url(${transitionPic})`,
-			backgroundSize: "cover",
-			backgroundRepeat: "no-repeat",
-			height: "400px",
-			backgroundAttachment: "fixed"
+			// backgroundSize: "cover",
+			// backgroundRepeat: "no-repeat",
+			// height: "400px",
+			// backgroundAttachment: "fixed"
 		}}
 	></div>
 	</div>
