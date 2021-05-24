@@ -5,8 +5,9 @@ import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Contact from "./components/Footer";
 import Footer from "./components/Footer";
+
+
 
 function App() {
 	return (
@@ -20,7 +21,6 @@ function App() {
 					<Route path="/contact" component={Footer} />
 					
 				</Wrapper>
-				<Footer />
 			</div>
 		</Router>
 	);

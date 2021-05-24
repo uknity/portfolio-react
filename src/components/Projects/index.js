@@ -12,8 +12,8 @@ import transitionPic from "./transition-pic.jpg";
 function Projects() {
 	return (
 		
-		  <div className="container-fluid   " > 
-			<div className="row projectHeader d-flex justify-content-center">
+		  <div className="container-fluid" > 
+			<div className="row projectHeader d-flex justify-content-center align-items-center">
 				Projects
 			</div>
 
@@ -22,10 +22,9 @@ function Projects() {
 				backgroundImage: `url(${codeBanner})`,
 				backgroundSize: "cover",
 				backgroundRepeat: "repeat",
-				// height: "100vh",
 			}}>
 			<div className="row p-3 justify-content-center">
-				<div className="col-5  px-5">
+				<div className="col-4  px-5 py-2">
 				
 					<a
 						href="https://uknity.github.io/employee-directory-2/"
@@ -43,7 +42,7 @@ function Projects() {
 					</a>
 					<div class="projectDesc bottom-center text-center">Employee Directory</div>
 				</div>
-				<div className="col-5 px-5">
+				<div className="col-4 px-5 py-2">
 					<a
 						href="https://vharris113.github.io/poketrade/"
 						target="blank"
@@ -59,7 +58,7 @@ function Projects() {
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
-				<div className="col-5  px-5">
+				<div className="col-4  px-5 py-2">
 					<a
 						href="https://radiant-badlands-18938.herokuapp.com/"
 						target="blank"
@@ -74,7 +73,7 @@ function Projects() {
 					<div class="projectDesc bottom-center text-center">Budget Tracker PWA</div>
 				</div>
 
-				<div className="col-5  px-5">
+				<div className="col-4  px-5 py-2">
 					
 					<a
 						href="https://uknity.github.io/Weather_Dashboard/"
@@ -91,7 +90,7 @@ function Projects() {
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
-				<div className="col-5  px-5">
+				<div className="col-4  px-5 py-2">
 					<a
 						href="https://immense-cove-53002.herokuapp.com/"
 						target="blank"
@@ -105,7 +104,7 @@ function Projects() {
 					</a>
 					<div class="projectDesc bottom-center text-center">MVC Tech Blog</div>
 				</div>
-				<div className="col-5  px-5">
+				<div className="col-4  px-5 py-2">
 					<a
 						href="https://hidden-scrubland-47296.herokuapp.com/"
 						target="blank"
@@ -129,6 +128,7 @@ function Projects() {
 			backgroundSize: "cover",
 			backgroundRepeat: "no-repeat",
 			height: "400px",
+			backgroundAttachment: "fixed"
 		}}
 	></div>
 	</div>

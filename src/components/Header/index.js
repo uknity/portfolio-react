@@ -10,11 +10,11 @@ function Header() {
 	return (
 		<div>
 		<div className="container-fluid p-0" style={{
-				
 				backgroundImage: `url(${backImg})`,
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
-				height: "400px",
+				height: "500px",
+				backgroundAttachment: "fixed"
 			}}
 		></div>
 			<div className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-end" id="nameRow">

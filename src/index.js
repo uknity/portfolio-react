@@ -5,5 +5,6 @@ import './stylesheet.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 //renders content from <App/> to display in root body of HTML
 ReactDOM.render(<App />, document.getElementById('root'));
