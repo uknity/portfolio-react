@@ -8,7 +8,7 @@
     }
 
 .imgBorder {
-  border: 30px solid white;
+  border: 70px solid white;
   /* border: thin solid black; */
 }
 
@@ -18,17 +18,22 @@
       color: darkslategray;
 }
 
+.bioRow {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 #projectContainer {
-  padding: 200px;
+  /* padding: 125px; */
 }
 
 #projectCol {
-  padding: 3%;
+  /* padding: 3%; */
 }
 
 #projectPic {
   /* min-width: 200px !important;  */
-  max-width: 700px !important
+  /* max-width: 700px !important */
 } 
 
 #banPic {
@@ -45,7 +50,7 @@
 }
 
 .imgBorder {
-  border: none;
+  border: 30px solid white;
 }
 
 #projectContainer {
@@ -54,6 +59,7 @@
 
 #projectCol {
   padding: 2%;
+  width: 100%;
 }
 
 .projectDesc {
@@ -63,4 +69,14 @@
   font-size: x-small;
 }
 
+.bioRow {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.projectHeader {
+  font-size: 2rem;
+    height: 125px;
+   
+  }
 }

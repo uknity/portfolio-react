@@ -4,32 +4,49 @@ import backImg from "./headingImg.jpg";
 import { Link } from "react-router-dom";
 import resumePDF from "./resumePDF.pdf";
 
-
 //function to create header
 function Header() {
 	return (
 		<div>
-		<div className="container-fluid p-0" 
-		id="bgImg"
-		style={{
-				backgroundImage: `url(${backImg})`,
-				// backgroundSize: "cover",
-				// backgroundRepeat: "no-repeat",
-				// height: "500px",
-				// backgroundAttachment: "fixed"
-			}}
-		></div>
-			<div className="navbar navbar-expand-lg navbar-light bg-light d-flex align-items-end" id="nameRow">
-				<div className="navbar-brand display-1 p-0" id="ee">Elizabeth Emerson</div>
+			{/* establishes background header image */}
+			<div
+				className="container-fluid p-0"
+				id="bgImg"
+				style={{
+					backgroundImage: `url(${backImg})`,
+				}}
+			></div>
+
+			<div id="nameRow">
+				<div className="bg-light display-1 p-0" id="ee">
+					Elizabeth Emerson
+				</div>
 			</div>
 
-			<nav className="navbar navbar-expand-lg navbar-light bg-light d-flex" id="subtitleLinkRow">
-				<div className="navbar navbar-expand-lg bg-light" id="subTitle">
+			<nav
+				className="navbar navbar-expand-lg navbar-light bg-light"
+				id="subtitleLinkRow"
+			>
+				<div className="navbar-brand bg-light" id="subTitle">
 					Grow, build, learn, repeat
 				</div>
-				<div className="collapse navbar-collapse flex-shrink-1  ml-auto" id="navbarSupportedContent">
-					<ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow">
-					<li className="nav-item">
+
+				<button
+					className="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarTogglerDemo01"
+					aria-controls="navbarTogglerDemo01"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" >
+					
+					<ul className="nav  mt-2 mt-lg-0 ms-auto">
+						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
+						<li className="nav-item">
 							<Link
 								to="/"
 								className={
@@ -41,7 +58,7 @@ function Header() {
 								Home{" "}
 							</Link>
 						</li>
-						<li className="nav-item">
+						<li className="nav-item ">
 							<Link
 								to="/about"
 								className={
@@ -53,7 +70,7 @@ function Header() {
 								About Me{" "}
 							</Link>
 						</li>
-						<li className="nav-item">
+						<li className="nav-item ">
 							<Link
 								to="/projects"
 								className={
@@ -65,7 +82,7 @@ function Header() {
 								Projects{" "}
 							</Link>
 						</li>
-						<li className="nav-item">
+						<li className="nav-item ">
 							<Link
 								to="/contact"
 								className={
@@ -77,9 +94,10 @@ function Header() {
 								Contact Me{" "}
 							</Link>
 						</li>
-						<li className="nav-item">
+						<li className="nav-item ">
 							<a
-								className="nav-link" rel="noopener noreferrer" 
+								className="nav-link"
+								rel="noopener noreferrer"
 								href="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing"
 								target="_blank"
 								download
@@ -87,23 +105,21 @@ function Header() {
 								Resume{" "}
 							</a>
 						</li>
-						<li className="nav-item">
+						<li className="nav-item ">
 							<a
-                            className="nav-link"
-                                href={resumePDF}
-								target="_blank" rel="noopener noreferrer" 
+								className="nav-link"
+								href={resumePDF}
+								target="_blank"
+								rel="noopener noreferrer"
 								download
 							>
 								Resume(PDF){" "}
 							</a>
-								
-			
 						</li>
 					</ul>
 				</div>
 			</nav>
-			
-			</div>
+		</div>
 	);
 }
 

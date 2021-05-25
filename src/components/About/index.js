@@ -15,10 +15,10 @@ function About() {
 				</div>
 			</div>
 			<div className="row justify-content-center ">
-				<h3 className="col-5 d-flex justify-content-center p-4 storyHeader">MY       STORY</h3>
+				<h3 className="col-6 d-flex justify-content-center p-3 storyHeader">MY       STORY</h3>
 			</div>
 			<div className="row justify-content-center bioRow">
-				<div className="col-6 text-center p-4">
+				<div className="col-sm-12 w-100 text-center">
 					<div className="row">
 						<p>
 							Passionate problem-solver seeking to add efficiency,

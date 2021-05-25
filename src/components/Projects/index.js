@@ -20,11 +20,11 @@ function Projects() {
 			<div className="container-fluid" id="projectContainer" style={{
 				
 				backgroundImage: `url(${codeBanner})`,
-				backgroundSize: "cover",
+				backgroundSize: "100%",
 				backgroundRepeat: "repeat",
 			}}>
 			<div className="row p-3 justify-content-center">
-				<div className="col-sm-6 col-4 py-2" id="projectCol">
+				<div className=" col-5 py-2" id="projectCol">
 				
 					<a
 						href="https://uknity.github.io/employee-directory-2/"
@@ -42,7 +42,7 @@ function Projects() {
 					</a>
 					<div class="projectDesc bottom-center text-center">Employee Directory</div>
 				</div>
-				<div className="col-sm-6 col-4 py-2" id="projectCol">
+				<div className="col-5 py-2" id="projectCol">
 					<a
 						href="https://vharris113.github.io/poketrade/"
 						target="blank"
@@ -59,7 +59,7 @@ function Projects() {
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
-				<div className="col-sm-6 col-4 py-2" id="projectCol">
+				<div className="col-5 py-2" id="projectCol">
 					<a
 						href="https://radiant-badlands-18938.herokuapp.com/"
 						target="blank"
@@ -75,7 +75,7 @@ function Projects() {
 					<div class="projectDesc bottom-center text-center">Budget Tracker PWA</div>
 				</div>
 
-				<div className="col-sm-6 col-4 py-2" id="projectCol">
+				<div className=" col-5 py-2" id="projectCol">
 					
 					<a
 						href="https://uknity.github.io/Weather_Dashboard/"
@@ -93,7 +93,7 @@ function Projects() {
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
-				<div className="col-sm-6 col-4 py-2" id="projectCol">
+				<div className="col-5 py-2" id="projectCol">
 					<a
 						href="https://immense-cove-53002.herokuapp.com/"
 						target="blank"
@@ -108,7 +108,7 @@ function Projects() {
 					</a>
 					<div class="projectDesc bottom-center text-center">MVC Tech Blog</div>
 				</div>
-				<div className="col-sm-6 col-4 py-2" id="projectCol">
+				<div className="col-5 py-2" id="projectCol">
 					<a
 						href="https://hidden-scrubland-47296.herokuapp.com/"
 						target="blank"
@@ -130,10 +130,6 @@ function Projects() {
 		<div className="container-fluid p-0" id="banPic" style={{
 				
 			backgroundImage: `url(${transitionPic})`,
-			// backgroundSize: "cover",
-			// backgroundRepeat: "no-repeat",
-			// height: "400px",
-			// backgroundAttachment: "fixed"
 		}}
 	></div>
 	</div>
