@@ -1,7 +1,4 @@
-a.nav-link {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: darkslategray;
-}
+
 a::hover {
   color: darkslategray;
 }
@@ -18,6 +15,8 @@ a::hover {
   letter-spacing: 2px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: darkslategray;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 
@@ -43,6 +42,8 @@ a::hover {
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #subTitle {
@@ -60,6 +61,13 @@ a::hover {
 		background-repeat: no-repeat;
 		height: 500px;
 		background-attachment: fixed;
+}
+
+#link {
+ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: darkslategray;
+  
 }
 
 @media only screen and (max-width: 600px) {

@@ -46,21 +46,11 @@ function Header() {
 					
 					<ul className="nav  mt-2 mt-lg-0 ms-auto">
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
-						<li className="nav-item">
-							<Link
-								to="/"
-								className={
-									window.location.pathname === "/"
-										? "nav-link active"
-										: "nav-link"
-								}
-							>
-								Home{" "}
-							</Link>
-						</li>
+						
 						<li className="nav-item ">
 							<Link
 								to="/about"
+								id="link"
 								className={
 									window.location.pathname === "/about"
 										? "nav-link active"
@@ -73,6 +63,7 @@ function Header() {
 						<li className="nav-item ">
 							<Link
 								to="/projects"
+								id="link"
 								className={
 									window.location.pathname === "/projects"
 										? "nav-link active"
@@ -85,6 +76,7 @@ function Header() {
 						<li className="nav-item ">
 							<Link
 								to="/contact"
+								id="link"
 								className={
 									window.location.pathname === "/contact"
 										? "nav-link active"
@@ -97,6 +89,7 @@ function Header() {
 						<li className="nav-item ">
 							<a
 								className="nav-link"
+								id="link"
 								rel="noopener noreferrer"
 								href="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing"
 								target="_blank"
@@ -108,6 +101,7 @@ function Header() {
 						<li className="nav-item ">
 							<a
 								className="nav-link"
+								id="link"
 								href={resumePDF}
 								target="_blank"
 								rel="noopener noreferrer"
@@ -115,6 +109,19 @@ function Header() {
 							>
 								Resume(PDF){" "}
 							</a>
+						</li>
+						<li className="nav-item" >
+							<Link
+								to="/"
+								id="link"
+								className={
+									window.location.pathname === "/"
+										? "nav-link active"
+										: "nav-link"
+								}
+							>
+								Home{" "}
+							</Link>
 						</li>
 					</ul>
 				</div>
