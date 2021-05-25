@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.b05e0863.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.d6c6d8b1.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.d6c6d8b1.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.b9173760.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.ace56899.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.ace56899.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.a9362b86.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.a9362b86.js.map",
     "static/css/2.61b4cb56.chunk.css": "/portfolio-react/static/css/2.61b4cb56.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.0a75d162.chunk.js.map": "/portfolio-react/static/js/2.0a75d162.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/portfolio-react/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.b05e0863.chunk.css.map": "/portfolio-react/static/css/main.b05e0863.chunk.css.map",
+    "static/css/main.b9173760.chunk.css.map": "/portfolio-react/static/css/main.b9173760.chunk.css.map",
     "static/js/2.0a75d162.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.0a75d162.chunk.js.LICENSE.txt",
     "static/media/HomeRoute.da5ca870.png": "/portfolio-react/static/media/HomeRoute.da5ca870.png",
     "static/media/MVC_tech_blog.5bdc1555.png": "/portfolio-react/static/media/MVC_tech_blog.5bdc1555.png",
@@ -20,7 +20,7 @@
     "static/media/headingImg.b2ed1abe.jpg": "/portfolio-react/static/media/headingImg.b2ed1abe.jpg",
     "static/media/poketrade2.a94ac5dc.png": "/portfolio-react/static/media/poketrade2.a94ac5dc.png",
     "static/media/profileImg.0749e4d5.jpg": "/portfolio-react/static/media/profileImg.0749e4d5.jpg",
-    "static/media/resumePDF.6973ef71.pdf": "/portfolio-react/static/media/resumePDF.6973ef71.pdf",
+    "static/media/resumePDF.612b8218.pdf": "/portfolio-react/static/media/resumePDF.612b8218.pdf",
     "static/media/transition-pic.482598c4.jpg": "/portfolio-react/static/media/transition-pic.482598c4.jpg",
     "static/media/weather-dashboard.f4f284ac.png": "/portfolio-react/static/media/weather-dashboard.f4f284ac.png"
   },
@@ -28,7 +28,7 @@
     "static/js/runtime-main.a9362b86.js",
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.0a75d162.chunk.js",
-    "static/css/main.b05e0863.chunk.css",
-    "static/js/main.d6c6d8b1.chunk.js"
+    "static/css/main.b9173760.chunk.css",
+    "static/js/main.ace56899.chunk.js"
   ]
 }
