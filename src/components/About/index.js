@@ -1,21 +1,22 @@
 import React from "react";
 import "./style.css";
-import profileImg from "./profileImg.jpg";
+import profileImg from "./profile-pic-locked-aspect.jpg";
 
 function About() {
 	return (
 		<div className="container-fluid bodyContainer m-0 pt-6 pb-5">
 			<div className="row justify-content-center">
-				<div className="col-12 col-md-4 d-flex justify-content-center">
+				<div className="col-12 col-md-4 d-flex align-items-start">
 					<img
 						src={profileImg}
 						alt="profile pic"
-						style={{ width: "100%", height: "100%", borderRadius: "60%",  position: "absolute"}}
+						style={{ width: "100%", height: "100%", borderRadius: "60%", display: "block" }}
+
 					></img>
 				</div>
 			</div>
 			<div className="row justify-content-center ">
-				<h3 className="col-6 d-flex justify-content-center p-3 storyHeader">MY       STORY</h3>
+				<h3 className="col-9 col-md-6 d-flex justify-content-center p-3 storyHeader">MY       STORY</h3>
 			</div>
 			<div className="row justify-content-center bioRow">
 				<div className="col-sm-12 w-100 text-center">
