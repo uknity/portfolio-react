@@ -6,11 +6,11 @@ function About() {
 	return (
 		<div className="container-fluid bodyContainer m-0 pt-6 pb-5">
 			<div className="row justify-content-center">
-				<div className="col-4 d-flex justify-content-center">
+				<div className="col-12 col-md-4 d-flex justify-content-center">
 					<img
 						src={profileImg}
 						alt="profile pic"
-						style={{ width: "100%", borderRadius: "60%", }}
+						style={{ width: "100%", height: "100%", borderRadius: "60%",  position: "absolute"}}
 					></img>
 				</div>
 			</div>

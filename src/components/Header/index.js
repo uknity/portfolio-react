@@ -40,9 +40,9 @@ function Header() {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" >
+				<div className="collapse navbar-collapse" >
 					
 					<ul className="nav  mt-2 mt-lg-0 ms-auto">
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}

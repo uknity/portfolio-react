@@ -44,7 +44,7 @@ function Projects() {
 						href="https://github.com/uknity/employee-directory-2"
 						target="blank"
 						rel="noopener noreferrer"
-					><div class="projectDesc bottom-center text-center">Employee Directory</div></a>
+					><div className="projectDesc bottom-center text-center">Employee Directory</div></a>
 				</div>
 				<div className="col-5 py-2" id="projectCol">
 					<a
@@ -63,7 +63,7 @@ function Projects() {
 						href="https://github.com/uknity/poketrade"
 						target="blank"
 						rel="noopener noreferrer"
-					><div class="projectDesc bottom-center text-center">PokeTrade</div></a>
+					><div className="projectDesc bottom-center text-center">PokeTrade</div></a>
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
@@ -84,7 +84,7 @@ function Projects() {
 						href="https://github.com/uknity/PWA_Budget_Tracker"
 						target="blank"
 						rel="noopener noreferrer"
-					><div class="projectDesc bottom-center text-center">Budget Tracker PWA</div></a>
+					><div className="projectDesc bottom-center text-center">Budget Tracker PWA</div></a>
 				</div>
 
 				<div className=" col-5 py-2" id="projectCol">
@@ -105,7 +105,7 @@ function Projects() {
 						href="https://github.com/uknity/Weather_Dashboard"
 						target="blank"
 						rel="noopener noreferrer"
-					><div class="projectDesc bottom-center text-center">Weather Dashboard</div></a>
+					><div className="projectDesc bottom-center text-center">Weather Dashboard</div></a>
 				</div>
 			</div>
 			<div className="row p-3 justify-content-center">
@@ -126,7 +126,7 @@ function Projects() {
 						href="https://github.com/uknity/MVC_Tech_Blog"
 						target="blank"
 						rel="noopener noreferrer"
-					><div class="projectDesc bottom-center text-center">MVC Tech Blog</div></a>
+					><div className="projectDesc bottom-center text-center">MVC Tech Blog</div></a>
 				</div>
 				<div className="col-5 py-2" id="projectCol">
 					<a
@@ -145,7 +145,7 @@ function Projects() {
 						href="https://github.com/uknity/property-management-app"
 						target="blank"
 						rel="noopener noreferrer"
-					><div class="projectDesc bottom-center text-center">HomeRoute</div></a>
+					><div className="projectDesc bottom-center text-center">HomeRoute</div></a>
 				</div>
 
 				</div>
