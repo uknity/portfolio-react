@@ -14,18 +14,6 @@ const Homepage = () => {
     return (
       <div>
 
-        {/* <Parallax strength={500}>
-          <About />
-          <div style={{
-            position: "absolute",
-            transform: "translate(-50%,-50%)"
-          }}>
-          <Projects />
-          </div>
-          </Parallax>  */}
-          
-        
-
 
        <About />
        <Projects />

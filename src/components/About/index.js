@@ -10,7 +10,7 @@ function About() {
 					<img
 						src={profileImg}
 						alt="profile pic"
-						style={{ width: "50%", borderRadius: "60%"}}
+						style={{ width: "100%", borderRadius: "60%", }}
 					></img>
 				</div>
 			</div>
