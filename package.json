@@ -1,6 +1,5 @@
 {
   "name": "portfolio-react",
-  
   "version": "0.1.0",
   "private": true,
   "homepage": "https://uknity.github.io/portfolio-react/",
@@ -17,6 +16,7 @@
     "get-google-fonts": "^1.2.2",
     "gh-pages": "^3.1.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-parallax": "^3.3.0",
     "react-router-dom": "^5.2.0",

@@ -6,7 +6,7 @@ import homeRoute2 from "./HomeRoute.png";
 import techBlog2 from "./MVC_tech_blog.png";
 import poketrade2 from "./poketrade2.png";
 import weatherDashboard2 from "./weather-dashboard.png";
-import codeBanner from "./full-headphones.jpg";
+import codeBanner from "./pink_headphone_wallpaper.png"
 import transitionPic from "./transition-pic.jpg";
 
 function Projects() {

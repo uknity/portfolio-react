@@ -15,7 +15,7 @@ a::hover {
   letter-spacing: 2px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: darkslategray;
-  margin-left: 10px;
+  margin-left: 1px;
   margin-right: 10px;
 
 }
@@ -42,8 +42,8 @@ a::hover {
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 #subTitle {
