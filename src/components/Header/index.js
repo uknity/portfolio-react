@@ -65,17 +65,24 @@ function Header() {
 							</Link>
 						</li>
 						<li className="nav-item ">
-							<a className="nav-link" href="/projects">
+						<Link to="/projects" className="nav-link">Projects<span className="sr-only"></span>
+							</Link>
+							{/* <a className="nav-link" href="/projects">
 								Projects
-							</a>
+							</a> */}
 						</li>
 						<li className="nav-item ">
-							<a className="nav-link" href="/contact">
+						<Link to="/contact" className="nav-link">Contact Me<span className="sr-only"></span>
+							</Link>
+							{/* <a className="nav-link" href="/contact">
 								Contact Me
-							</a>
+							</a> */}
 						</li>
 						<li className="nav-item ">
-							<a
+						<Link to="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing" className="nav-link" target="_blank"
+								rel="noopener noreferrer" download>Resume{" "}<span className="sr-only"></span>
+							</Link>
+							{/* <a
 								className="nav-link"
 								id="link"
 								href="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing"
@@ -84,13 +91,15 @@ function Header() {
 								download
 							>
 								Resume{" "}
-							</a>
+							</a> */}
 						</li>
 
 						<li className="nav-item">
-							<a className="nav-link" href="/">
+						<Link to="/" className="nav-link">Home<span className="sr-only"></span>
+							</Link>
+							{/* <a className="nav-link" href="/">
 								Home{" "}
-							</a>
+							</a> */}
 						</li>
 					</ul>
 				</div>
