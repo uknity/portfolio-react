@@ -64,7 +64,7 @@ function Header() {
 								to="/"
 								className=
 								{
-									window.location.pathname === "/portfolio-react/"
+									window.location.pathname === "/portfolio-react"
 										? "nav-link active"
 										: "nav-link"
 								}

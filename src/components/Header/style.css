@@ -44,7 +44,7 @@ a::hover {
   padding-top: 0px;
   padding-bottom: 0px;
   margin-left: 1px;
-  margin-right: 1px;
+  margin-right: 33px;
 }
 
 #subTitle {
@@ -52,8 +52,10 @@ a::hover {
   margin-top: 0px;
   padding-left: 0px;
   padding-bottom: 0px;
+  padding-right: 0px;
   font-family: 'Homemade Apple', cursive;
   color: darkslategray;
+  margin-right: 0px;
 }
 
 #bgImg {

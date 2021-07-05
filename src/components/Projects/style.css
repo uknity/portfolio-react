@@ -47,6 +47,7 @@
 @media only screen and (max-width: 600px) {
 #banPic {
   background-attachment: scroll;
+  margin-left: -14px;
 }
 
 .imgBorder {
@@ -55,6 +56,7 @@
 
 #projectContainer {
   padding: 20px;
+  margin-left: -14px;
 }
 
 #projectCol {
