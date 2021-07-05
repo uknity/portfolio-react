@@ -101,7 +101,7 @@ function Header() {
 						</li>
 
 						<li className="nav-item">
-						<Link to="/" className={window.location.pathname === "/"
+						<Link to="/" className={window.location.pathname === "/" || window.location.pathname === "/portfolio-react/git"
 										? "nav-link active"
 										: "nav-link"}>Home<span className="sr-only"></span>
 							</Link>
