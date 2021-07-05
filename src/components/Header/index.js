@@ -1,5 +1,5 @@
 import React from "react";
-import {useState} from "react";
+import { useState } from "react";
 import "./style.css";
 import backImg from "./headingImg.jpg";
 import { react } from "@babel/types";
@@ -8,14 +8,13 @@ import { Link } from "react-router-dom";
 
 //function to create header
 function Header() {
-
 	const [showCollapsedMenu, setShowCollapsedMenu] = useState(false);
 
 	const toggleMenu = () => {
 		setShowCollapsedMenu(true);
-	}
+	};
 
-	const show = (showCollapsedMenu === true) ? " show" : " " ;
+	const show = showCollapsedMenu === true ? " show" : " ";
 
 	return (
 		<div>
@@ -60,65 +59,78 @@ function Header() {
 					<ul className="navbar-nav  mt-2 mt-lg-0 ms-auto d-flex align-items-end">
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
 
-						<li className="nav-item active">
-							<Link to="/about" className={window.location.pathname === "/about"
+						{/* <li className="nav-item">
+							<Link
+								to="/portfolio-react/"
+								className=
+								{
+									window.location.pathname === "/portfolio-react/"
 										? "nav-link active"
-										: "nav-link"}>About Me<span className="sr-only"></span>
+										: "nav-link"
+								}
+							>
+								Home
+								 <span className="sr-only"></span>
+							 </Link>
+						</li> */}
+
+						<li className="nav-item active">
+							<Link
+								to="/about"
+								className={
+									window.location.pathname === "/about"
+										? "nav-link active"
+										: "nav-link"
+								}
+							>
+								About Me<span className="sr-only"></span>
 							</Link>
 						</li>
 						<li className="nav-item ">
-						<Link to="/projects" className={window.location.pathname === "/projects"
+							<Link
+								to="/projects"
+								className={
+									window.location.pathname === "/projects"
 										? "nav-link active"
-										: "nav-link"}>Projects<span className="sr-only"></span>
+										: "nav-link"
+								}
+							>
+								Projects<span className="sr-only"></span>
 							</Link>
 							{/* <a className="nav-link" href="/projects">
 								Projects
 							</a> */}
 						</li>
 						<li className="nav-item ">
-						<Link to="/contact" className={window.location.pathname === "/contact"
+							<Link
+								to="/contact"
+								className={
+									window.location.pathname === "/contact"
 										? "nav-link active"
-										: "nav-link"}>Contact Me<span className="sr-only"></span>
+										: "nav-link"
+								}
+							>
+								Contact Me<span className="sr-only"></span>
 							</Link>
 							{/* <a className="nav-link" href="/contact">
 								Contact Me
 							</a> */}
 						</li>
 						<li className="nav-item ">
-						<Link to="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing" className="nav-link" target="_blank"
-								rel="noopener noreferrer" download>Resume{" "}<span className="sr-only"></span>
-							</Link>
-							{/* <a
+							<a
+							href="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing"
 								className="nav-link"
-								id="link"
-								href="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing"
 								target="_blank"
 								rel="noopener noreferrer"
 								download
 							>
-								Resume{" "}
-							</a> */}
+								Resume 
+							</a>
 						</li>
 
-						<li className="nav-item">
-						<Link to="/" className={window.location.pathname === "/" || window.location.pathname === "/portfolio-react/git"
-										? "nav-link active"
-										: "nav-link"}>Home<span className="sr-only"></span>
-							</Link>
-							{/* <a className="nav-link" href="/">
-								Home{" "}
-							</a> */}
-						</li>
+						
 					</ul>
 				</div>
-				{/* <div className="collapse navbar-collapse" id="navbarToggler"> */}
-					{/* <a href="#"></a> */}
-					{/* <h1>
-						HEY HEY HEY!
-						<br />
-						<i class="fas fa-yin-yang fa-spin"></i>
-					</h1> */}
-				{/* </div> */}
 			</nav>
 		</div>
 	);

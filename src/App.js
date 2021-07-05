@@ -13,7 +13,7 @@ function App() {
 			<div>
 				<Header />
 				<Wrapper>
-					<Route exact path={["/", "/portfolio-react"]} components={Homepage} />
+					<Route exact path={["/", "/portfolio-react/"]} components={Homepage} />
 					<Route path="/about" component={About} />
 					<Route path="/projects" component={Projects} />
 					<Route path="/contact" component={Footer} />
