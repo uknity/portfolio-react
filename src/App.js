@@ -14,9 +14,9 @@ function App() {
 				<Header />
 				<Wrapper>
 					<Route exact path={["/", "/portfolio-react"]} component={Homepage} />
-					<Route path={["/about", "/portfolio-react/about"]} component={About} />
-					<Route path={["/projects", "/portfolio-react/projects"]} component={Projects} />
-					<Route path={["/contact", "/portfolio-react/contact"]} component={Footer} />
+					<Route component="/about" component={About} />
+					<Route component="/projects" component={Projects} />
+					<Route component="/contact" component={Footer} />
 				</Wrapper>
 			</div>
 		</Router>
