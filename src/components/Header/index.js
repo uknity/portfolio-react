@@ -3,7 +3,7 @@ import {useState} from "react";
 import "./style.css";
 import backImg from "./headingImg.jpg";
 import { react } from "@babel/types";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { Navbar, Nav, Container } from "react-bootstrap";
 
 //function to create header
@@ -61,9 +61,8 @@ function Header() {
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
 
 						<li className="nav-item active">
-							<a className="nav-link" href="/about">
-								About Me<span className="sr-only"></span>
-							</a>
+							<Link to="/about" className="nav-link">About Me<span className="sr-only"></span>
+							</Link>
 						</li>
 						<li className="nav-item ">
 							<a className="nav-link" href="/projects">
