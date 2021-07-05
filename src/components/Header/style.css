@@ -29,6 +29,7 @@ a::hover {
 .nav-item {
   font-family: 'Open Sans Condensed', sans-serif;
   color: darkslategray;
+  line-height: 1;
 }
 
 .navbar {

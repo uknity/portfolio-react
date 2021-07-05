@@ -1,11 +1,22 @@
 import React from "react";
+import {useState} from "react";
 import "./style.css";
 import backImg from "./headingImg.jpg";
+import { react } from "@babel/types";
 // import { Link } from "react-router-dom";
 // import { Navbar, Nav, Container } from "react-bootstrap";
 
 //function to create header
 function Header() {
+
+	const [showCollapsedMenu, setShowCollapsedMenu] = useState(false);
+
+	const toggleMenu = () => {
+		setShowCollapsedMenu(true);
+	}
+
+	const show = (showCollapsedMenu === true) ? " show" : " " ;
+
 	return (
 		<div>
 			{/* establishes background header image */}
@@ -28,66 +39,40 @@ function Header() {
 				className="navbar navbar-expand-lg navbar-light bg-light"
 				id="subtitleLinkRow"
 			>
-				<div className="navbar-brand bg-light" id="subTitle">
+				<span className="navbar-brand bg-light" id="subTitle">
 					Grow, build, learn, repeat
-				</div>
+				</span>
 
 				<button
 					className="navbar-toggler"
 					type="button"
 					data-toggle="collapse"
-					data-target="#navbarToggler"
-					aria-controls="navbarToggler"
+					data-bs-target="#navbarToggler1"
+					aria-controls="navbarToggler1"
 					aria-expanded="false"
 					aria-label="Toggle navigation"
+					onClick={toggleMenu}
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarToggler">
-					
-					<ul className="nav  mt-2 mt-lg-0 ms-auto" >
+
+				<div className={"collapse navbar-collapse" + show} id="navbarToggler1">
+					<ul className="navbar-nav  mt-2 mt-lg-0 ms-auto d-flex align-items-end">
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
-						
+
 						<li className="nav-item active">
-							<a
-								to="/about"
-								id="link"
-								className="nav-link"
-								// {
-								// 	window.location.pathname === "/about"
-								// 		? "nav-link active"
-								// 		: "nav-link"
-								// }
-							>
-								About Me{" "}
+							<a className="nav-link" href="/about">
+								About Me<span className="sr-only"></span>
 							</a>
 						</li>
 						<li className="nav-item ">
-							<a
-								to="/projects"
-								id="link"
-								className="nav-link"
-								// {
-								// 	window.location.pathname === "/projects"
-								// 		? "nav-link active"
-								// 		: "nav-link"
-								// }
-							>
-								Projects{" "}
+							<a className="nav-link" href="/projects">
+								Projects
 							</a>
 						</li>
 						<li className="nav-item ">
-							<a
-								to="/contact"
-								id="link"
-								className="nav-link"
-								// {
-								// 	window.location.pathname === "/contact"
-								// 		? "nav-link active"
-								// 		: "nav-link"
-								// }
-							>
-								Contact Me{" "}
+							<a className="nav-link" href="/contact">
+								Contact Me
 							</a>
 						</li>
 						<li className="nav-item ">
@@ -102,30 +87,25 @@ function Header() {
 								Resume{" "}
 							</a>
 						</li>
-						
-						<li className="nav-item" >
-							<a
-								to="/"
-								id="link"
-								className="nav-link"
-								// {
-								// 	window.location.pathname === "/"
-								// 		? "nav-link active"
-								// 		: "nav-link"
-								// }
-							>
+
+						<li className="nav-item">
+							<a className="nav-link" href="/">
 								Home{" "}
 							</a>
 						</li>
 					</ul>
 				</div>
+				{/* <div className="collapse navbar-collapse" id="navbarToggler"> */}
+					{/* <a href="#"></a> */}
+					{/* <h1>
+						HEY HEY HEY!
+						<br />
+						<i class="fas fa-yin-yang fa-spin"></i>
+					</h1> */}
+				{/* </div> */}
 			</nav>
-
-		
-  </div>
-  	);
+		</div>
+	);
 }
 
 export default Header;
-
-		
