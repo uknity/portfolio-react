@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 import backImg from "./headingImg.jpg";
-import { Link } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
+// import { Link } from "react-router-dom";
+// import { Navbar, Nav, Container } from "react-bootstrap";
 
 //function to create header
 function Header() {
@@ -36,64 +36,67 @@ function Header() {
 					className="navbar-toggler"
 					type="button"
 					data-toggle="collapse"
-					data-target="#navbarTogglerDemo01"
-					aria-controls="navbarTogglerDemo01"
+					data-target="#navbarToggler"
+					aria-controls="navbarToggler"
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" >
+				<div className="collapse navbar-collapse" id="navbarToggler">
 					
-					<ul className="nav  mt-2 mt-lg-0 ms-auto">
+					<ul className="nav  mt-2 mt-lg-0 ms-auto" >
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
 						
-						<li className="nav-item ">
-							<Link
+						<li className="nav-item active">
+							<a
 								to="/about"
 								id="link"
-								className={
-									window.location.pathname === "/about"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className="nav-link"
+								// {
+								// 	window.location.pathname === "/about"
+								// 		? "nav-link active"
+								// 		: "nav-link"
+								// }
 							>
 								About Me{" "}
-							</Link>
+							</a>
 						</li>
 						<li className="nav-item ">
-							<Link
+							<a
 								to="/projects"
 								id="link"
-								className={
-									window.location.pathname === "/projects"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className="nav-link"
+								// {
+								// 	window.location.pathname === "/projects"
+								// 		? "nav-link active"
+								// 		: "nav-link"
+								// }
 							>
 								Projects{" "}
-							</Link>
+							</a>
 						</li>
 						<li className="nav-item ">
-							<Link
+							<a
 								to="/contact"
 								id="link"
-								className={
-									window.location.pathname === "/contact"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className="nav-link"
+								// {
+								// 	window.location.pathname === "/contact"
+								// 		? "nav-link active"
+								// 		: "nav-link"
+								// }
 							>
 								Contact Me{" "}
-							</Link>
+							</a>
 						</li>
 						<li className="nav-item ">
 							<a
 								className="nav-link"
 								id="link"
-								rel="noopener noreferrer"
 								href="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing"
 								target="_blank"
+								rel="noopener noreferrer"
 								download
 							>
 								Resume{" "}
@@ -101,17 +104,18 @@ function Header() {
 						</li>
 						
 						<li className="nav-item" >
-							<Link
+							<a
 								to="/"
 								id="link"
-								className={
-									window.location.pathname === "/"
-										? "nav-link active"
-										: "nav-link"
-								}
+								className="nav-link"
+								// {
+								// 	window.location.pathname === "/"
+								// 		? "nav-link active"
+								// 		: "nav-link"
+								// }
 							>
 								Home{" "}
-							</Link>
+							</a>
 						</li>
 					</ul>
 				</div>
