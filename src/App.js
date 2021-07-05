@@ -13,7 +13,7 @@ function App() {
 			<div>
 				<Header />
 				{/* <Wrapper> */}
-					<Route path="/portfolio-react" pages={Homepage} />
+					<Route path="/portfolio-react" page={Homepage} />
 					<Route path="/about" component={About} />
 					<Route path="/projects" component={Projects} />
 					<Route path="/contact" component={Footer} />
