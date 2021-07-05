@@ -12,12 +12,12 @@ function App() {
 		<Router>
 			<div>
 				<Header />
-				{/* <Wrapper> */}
-					<Route exact path="/" component={Homepage} />
+				 <Wrapper> 
+					<Route exact path={["/", "/portfolio-react"]} component={Homepage} />
 					<Route path="/about" component={About} />
 					<Route path="/projects" component={Projects} />
 					<Route path="/contact" component={Footer} />
-				{/* </Wrapper> */}
+				</Wrapper> 
 			</div>
 		</Router>
 	);
