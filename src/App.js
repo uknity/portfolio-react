@@ -13,7 +13,7 @@ function App() {
 			<div>
 				<Header />
 				{/* <Wrapper> */}
-					<Route path="/" page={Homepage} />
+					<Route exact path="/" component={Homepage} />
 					<Route path="/about" component={About} />
 					<Route path="/projects" component={Projects} />
 					<Route path="/contact" component={Footer} />
