@@ -59,9 +59,9 @@ function Header() {
 					<ul className="navbar-nav  mt-2 mt-lg-0 ms-auto d-flex align-items-end">
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
 
-						{/* <li className="nav-item">
+						<li className="nav-item">
 							<Link
-								to="/portfolio-react/"
+								to="/"
 								className=
 								{
 									window.location.pathname === "/portfolio-react/"
@@ -72,7 +72,7 @@ function Header() {
 								Home
 								 <span className="sr-only"></span>
 							 </Link>
-						</li> */}
+						</li>
 
 						<li className="nav-item active">
 							<Link
