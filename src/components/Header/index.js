@@ -61,25 +61,25 @@ function Header() {
 						{/* <ul className="navbar-nav  mb-2 mb-lg-0" id="linkRow"> */}
 
 						<li className="nav-item active">
-							<Link to="/about" className="nav-link">About Me<span className="sr-only"></span>
+							<Link to="/about" className="nav-link active">About Me<span className="sr-only"></span>
 							</Link>
 						</li>
 						<li className="nav-item ">
-						<Link to="/projects" className="nav-link">Projects<span className="sr-only"></span>
+						<Link to="/projects" className="nav-link active">Projects<span className="sr-only"></span>
 							</Link>
 							{/* <a className="nav-link" href="/projects">
 								Projects
 							</a> */}
 						</li>
 						<li className="nav-item ">
-						<Link to="/contact" className="nav-link">Contact Me<span className="sr-only"></span>
+						<Link to="/contact" className="nav-link active">Contact Me<span className="sr-only"></span>
 							</Link>
 							{/* <a className="nav-link" href="/contact">
 								Contact Me
 							</a> */}
 						</li>
 						<li className="nav-item ">
-						<Link to="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing" className="nav-link" target="_blank"
+						<Link to="https://docs.google.com/document/d/1XnnyCAyvonrlKVCC-sQ2VxHgFOKzGe6oD_FBRDAoBKk/edit?usp=sharing" className="nav-link active" target="_blank"
 								rel="noopener noreferrer" download>Resume{" "}<span className="sr-only"></span>
 							</Link>
 							{/* <a
@@ -95,7 +95,7 @@ function Header() {
 						</li>
 
 						<li className="nav-item">
-						<Link to="/" className="nav-link">Home<span className="sr-only"></span>
+						<Link to="/" className="nav-link active">Home<span className="sr-only"></span>
 							</Link>
 							{/* <a className="nav-link" href="/">
 								Home{" "}

@@ -13,10 +13,10 @@ function App() {
 			<div>
 				<Header />
 				<Wrapper>
-					<Route exact path={["/", "/portfolio-react"]} component={Homepage} />
-					<Route component="/about" component={About} />
-					<Route component="/projects" component={Projects} />
-					<Route component="/contact" component={Footer} />
+					<Route exact path={["/", "/portfolio-react"]} components={Homepage} />
+					<Route path="/about" component={About} />
+					<Route path="/projects" component={Projects} />
+					<Route path="/contact" component={Footer} />
 				</Wrapper>
 			</div>
 		</Router>
